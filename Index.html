@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geri Setiawan | IT Support Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome untuk Logo Media Sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0f0f0f;
+            color: #e2e8f0;
+        }
+
+        .text-maroon { color: #b91c1c; }
+        .bg-maroon { background-color: #800000; }
+        .border-maroon { border-color: #800000; }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #1a1a1a 0%, #4c0505 100%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.07);
+            border-color: #800000;
+            transform: translateY(-5px);
+        }
+
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #0f0f0f; }
+        ::-webkit-scrollbar-thumb { background: #800000; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-extrabold tracking-tighter text-white">GERI<span class="text-maroon">.</span></span>
+            <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="#profil" class="hover:text-maroon transition">Profil</a>
+                <a href="#pengalaman" class="hover:text-maroon transition">Pengalaman</a>
+                <a href="#sertifikat" class="hover:text-maroon transition">Sertifikat</a>
+                <a href="#kontak" class="bg-maroon px-5 py-2 rounded-full text-white hover:bg-red-700 transition">Hubungi Saya</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="profil" class="hero-gradient min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="text-maroon font-bold tracking-widest mb-4 uppercase">IT Support Specialist</h2>
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-6 leading-tight">Geri Setiawan</h1>
+                <p class="text-lg text-slate-400 mb-8 leading-relaxed">
+                    Profesional IT dengan 4 tahun pengalaman dalam sistem komputerisasi, administrasi jaringan, dan pengembangan website. Berdedikasi untuk mengoptimalkan operasional perusahaan melalui solusi teknologi yang andal.
+                </p>
+                
+                <!-- Social Icons -->
+                <div class="flex gap-6 mb-8 text-2xl">
+                    <a href="https://wa.me/62895605100951" target="_blank" class="hover:text-green-500 transition-all" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/geristiawn" target="_blank" class="hover:text-pink-500 transition-all" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/geristiawn" target="_blank" class="hover:text-blue-500 transition-all" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:geri02042@gmail.com" class="hover:text-maroon transition-all" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://github.com/geri02042" target="_blank" class="hover:text-slate-400 transition-all" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <div class="flex gap-4">
+                    <a href="#kontak" class="bg-maroon text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-red-900/20 hover:scale-105 transition">Kontak Saya</a>
+                    <a href="#" class="border border-white/20 px-8 py-4 rounded-xl font-bold hover:bg-white/5 transition">Download CV</a>
+                </div>
+            </div>
+            
+            <div class="relative flex justify-center" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="relative w-80 h-[450px] md:w-[400px] md:h-[550px] border-[12px] border-white/5 rounded-3xl overflow-hidden shadow-2xl">
+                    <img src="https://raw.githubusercontent.com/geri02042/Profil-Geri-Setiawan/main/WhatsApp%20Image%202026-01-08%20at%2014.19.50.jpeg" alt="Geri Setiawan" class="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-700">
+                    <div class="absolute inset-0 bg-maroon/20 mix-blend-multiply"></div>
+                </div>
+                <div class="absolute -bottom-10 -right-10 w-40 h-40 bg-maroon blur-[100px] opacity-50"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Section -->
+    <section class="py-24 bg-[#0a0a0a]">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="glass-card p-6 rounded-2xl text-center" data-aos="fade-up">
+                    <h3 class="text-maroon font-bold text-xl mb-1">4+</h3>
+                    <p class="text-slate-500 text-sm">Tahun Pengalaman</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fa-solid fa-network-wired text-maroon text-2xl mb-2"></i>
+                    <p class="text-slate-500 text-sm font-bold">Network Admin</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fa-solid fa-code text-maroon text-2xl mb-2"></i>
+                    <p class="text-slate-500 text-sm font-bold">Web Dev</p>
+                </div>
+                <div class="glass-card p-6 rounded-2xl text-center" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fa-solid fa-satellite text-maroon text-2xl mb-2"></i>
+                    <p class="text-slate-500 text-sm font-bold">Starlink Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience -->
+    <section id="pengalaman" class="py-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center border-b border-maroon inline-block pb-2 mx-auto" data-aos="fade-up">Riwayat Pekerjaan</h2>
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row gap-6" data-aos="fade-up">
+                    <div class="md:w-1/3">
+                        <p class="text-maroon font-bold">2024 - Sekarang</p>
+                        <p class="text-sm text-slate-500 italic">PT. Aplikanusa Lintasarta</p>
+                    </div>
+                    <div class="md:w-2/3 border-l border-white/10 pl-8 relative">
+                        <div class="absolute w-3 h-3 bg-maroon rounded-full -left-[6.5px] top-1"></div>
+                        <h4 class="text-xl font-bold text-white mb-2">Teknisi Project Pengeboran Pertamina</h4>
+                        <ul class="text-slate-400 text-sm space-y-2">
+                            <li>• Instalasi dan konfigurasi perangkat satelit Starlink.</li>
+                            <li>• Troubleshooting hardware dan konektivitas jaringan kompleks.</li>
+                            <li>• Maintenance infrastruktur jaringan di area remote.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-6" data-aos="fade-up">
+                    <div class="md:w-1/3">
+                        <p class="text-maroon font-bold">Feb 2022 - Juli 2022</p>
+                        <p class="text-sm text-slate-500 italic">PT. ASP</p>
+                    </div>
+                    <div class="md:w-2/3 border-l border-white/10 pl-8 relative">
+                        <div class="absolute w-3 h-3 bg-white/20 rounded-full -left-[6.5px] top-1"></div>
+                        <h4 class="text-xl font-bold text-white mb-2">Admin Verifikator</h4>
+                        <ul class="text-slate-400 text-sm space-y-2">
+                            <li>• Pengelolaan data jaringan fiber optic SUTET PLN.</li>
+                            <li>• Manajemen personil dan supervisi teknisi lapangan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section id="sertifikat" class="py-24 bg-[#0a0a0a]">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center border-b border-maroon inline-block pb-2 mx-auto" data-aos="fade-up">Lisensi & Sertifikasi</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-8 rounded-3xl" data-aos="flip-left">
+                    <i class="fa-solid fa-certificate text-maroon text-4xl mb-6"></i>
+                    <h4 class="text-xl font-bold mb-2">Junior Network Administrator</h4>
+                    <p class="text-slate-500 text-sm uppercase mb-4">Kominfo (2023)</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl" data-aos="flip-left" data-aos-delay="100">
+                    <i class="fa-solid fa-mobile-screen text-maroon text-4xl mb-6"></i>
+                    <h4 class="text-xl font-bold mb-2">Junior Mobile Programming</h4>
+                    <p class="text-slate-500 text-sm uppercase mb-4">Kominfo (2019)</p>
+                </div>
+                <div class="glass-card p-8 rounded-3xl" data-aos="flip-left" data-aos-delay="200">
+                    <i class="fa-solid fa-laptop-code text-maroon text-4xl mb-6"></i>
+                    <h4 class="text-xl font-bold mb-2">Programming Ujian Online/Offline</h4>
+                    <p class="text-slate-500 text-sm uppercase mb-4">SMK PGRI 2 (2016)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="py-24 bg-[#050505] border-t border-white/5">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+            <div data-aos="fade-right">
+                <h2 class="text-4xl font-extrabold mb-6">Mari Terhubung.</h2>
+                <div class="space-y-4 text-slate-300">
+                    <p class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-maroon w-5 text-center"></i> Palembang, Sumatera Selatan</p>
+                    <a href="mailto:geri02042@gmail.com" class="flex items-center gap-3 hover:text-maroon transition"><i class="fa-solid fa-envelope text-maroon w-5 text-center"></i> geri02042@gmail.com</a>
+                    <a href="https://wa.me/62895605100951" class="flex items-center gap-3 hover:text-maroon transition"><i class="fa-solid fa-phone text-maroon w-5 text-center"></i> 0895-6051-00951</a>
+                    <a href="https://instagram.com/geristiawn" class="flex items-center gap-3 hover:text-maroon transition"><i class="fa-brands fa-instagram text-maroon w-5 text-center"></i> @geristiawn</a>
+                </div>
+            </div>
+            <div class="glass-card p-8 rounded-3xl" data-aos="fade-left">
+                <form class="space-y-4" action="mailto:geri02042@gmail.com" method="post" enctype="text/plain">
+                    <input type="text" placeholder="Nama Anda" class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:outline-none focus:border-maroon transition">
+                    <textarea placeholder="Pesan Anda" rows="4" class="w-full bg-white/5 border border-white/10 p-4 rounded-xl focus:outline-none focus:border-maroon transition"></textarea>
+                    <button type="submit" class="w-full bg-maroon p-4 rounded-xl font-bold hover:bg-red-700 transition">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+        <div class="text-center mt-20 text-slate-600 text-xs tracking-[0.2em] uppercase">
+            © 2026 GERI SETIAWAN — IT SUPPORT & NETWORK SPECIALIST
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: true, duration: 800 });
+    </script>
+</body>
+</html>
